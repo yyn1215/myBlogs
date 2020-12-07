@@ -1,11 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="613dc6c9-f735-4f10-b1f5-a8474cc7696b" name="Default Changelist" comment="" />
+    <list default="true" id="613dc6c9-f735-4f10-b1f5-a8474cc7696b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myblog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/MyblogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/controller/TBlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/controller/TCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/controller/TFriendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/controller/TMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/controller/TPictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/controller/TTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/controller/TUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/entity/TBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/entity/TComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/entity/TFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/entity/TMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/entity/TPicture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/entity/TType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/entity/TUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/mapper/TBlogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/mapper/TCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/mapper/TFriendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/mapper/TMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/mapper/TPictureMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/mapper/TTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/mapper/TUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/ITBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/ITCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/ITFriendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/ITMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/ITPictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/ITTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/ITUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/impl/TBlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/impl/TCommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/impl/TFriendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/impl/TMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/impl/TPictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/impl/TTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/myblog/service/impl/TUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/utils/MyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/mapper/myblog/TBlogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/mapper/myblog/TCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/mapper/myblog/TFriendMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/mapper/myblog/TMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/mapper/myblog/TPictureMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/mapper/myblog/TTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/mapper/myblog/TUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/src/test/java/com/yyn1215/myblogs/MyblogApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="D:\app\Git\bin\git.exe" />
@@ -21,17 +107,73 @@
     </option>
   </component>
   <component name="ProjectId" id="1lKVEDDQH5TmyNQpBp3yc3dhoO2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myblog/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\myBlogs\myblog\src\main\resources" />
+      <recent name="E:\workspace\myBlogs\myblog\src\main\java\com\yyn1215\myblogs\myblog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MyblogApplication (1)">
+    <configuration name="MyGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yyn1215.myblogs.myblog.utils.MyGenerator" />
+      <module name="myblog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyn1215.myblogs.myblog.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyblogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="myblog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyn1215.myblogs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyn1215.myblogs.MyblogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyblogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="myblog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyn1215.myblogs.myblog.MyblogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MyblogApplication (1)" />
+        <item itemvalue="Application.MyGenerator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,20 +186,87 @@
       <option name="presentableId" value="Default" />
       <updated>1607345656025</updated>
       <workItem from="1607345658658" duration="335000" />
+      <workItem from="1607346065036" duration="4395000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1607347538379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607347538379" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1607345988017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607345988017" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1607345996545">
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1607351207904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607345996545" />
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207904" />
+    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1607351207904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207904" />
+    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1607351207904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207904" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1607351207904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207904" />
+    <state width="1877" height="307" key="GridCell.Tab.1.bottom" timestamp="1607351207905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207905" />
+    <state width="1877" height="307" key="GridCell.Tab.1.center" timestamp="1607351207904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207904" />
+    <state width="1877" height="307" key="GridCell.Tab.1.left" timestamp="1607351207904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207904" />
+    <state width="1877" height="307" key="GridCell.Tab.1.right" timestamp="1607351207905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="307" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607351207905" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1607347252020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607347252020" />
+    <state x="334" y="180" key="new project wizard" timestamp="1607347139919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607347139919" />
   </component>
 </project>
