@@ -9,3 +9,6 @@ spring:
 comment.avatar: /images/avatar.png
 message.avatar: /images/avatar.png
 
+mybatis-plus:
+  type-aliases-package: com.yyn1215.**.entity
+  mapper-locations: classpath:mybatis/**/*.xml
