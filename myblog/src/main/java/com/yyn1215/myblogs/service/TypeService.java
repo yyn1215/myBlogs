@@ -20,13 +20,13 @@ public interface TypeService extends IService<Type> {
     int saveType(Type type);
 
     //根据id查询分类
-    Type getType(Long id);
+    Type getType(String id);
 
     //查询所有分类
     List<Type> getAllType();
 
     //根据分类名称查询分类
-    Type getTypeByName(String name);
+    Type getTypeByName(String name,Boolean throwEx);
 
     //编辑修改分类
     int updateType(Type type);

@@ -17,7 +17,7 @@ public class User {
 
     private static final long serialVersionUID = 1L;
 
-    private Integer id;
+    private String id;
 
     private String avatar;
 

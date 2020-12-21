@@ -3,6 +3,7 @@ package com.yyn1215.myblogs.service.impl;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yyn1215.myblogs.Exception.NotFoundException;
 import com.yyn1215.myblogs.entity.Type;
@@ -25,12 +26,13 @@ public class TypeServiceImpl extends ServiceImpl<TypeMapper, Type> implements Ty
 
     @Override
     public int saveType(Type type) {
+        type.setId(IdWorker.get32UUID());
         Boolean result = save(type);
         return result ? 1 : 0;
     }
 
     @Override
-    public Type getType(Long id) {
+    public Type getType(String id) {
         QueryWrapper<Type> queryWrapper = new QueryWrapper<>();
         queryWrapper.lambda().eq(Type::getId, id);
 
@@ -43,17 +45,18 @@ public class TypeServiceImpl extends ServiceImpl<TypeMapper, Type> implements Ty
 
     @Override
     public List<Type> getAllType() {
-        List<Type> types = list();
+        QueryWrapper<Type> queryWrapper = new QueryWrapper<>();
+        List<Type> types = list(queryWrapper);
         return types;
     }
 
     @Override
-    public Type getTypeByName(String name) {
+    public Type getTypeByName(String name,Boolean throwEx) {
         QueryWrapper<Type> queryWrapper = new QueryWrapper<>();
         queryWrapper.lambda().eq(Type::getName, name);
 
         Type type = getOne(queryWrapper, Boolean.TRUE);
-        if (ObjectUtil.isNull(type)) {
+        if (throwEx && ObjectUtil.isNull(type)) {
             throw new NotFoundException("type no found！");
         }
         return type;

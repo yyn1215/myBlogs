@@ -1,6 +1,7 @@
 package com.yyn1215.myblogs.entity;
 
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -22,7 +23,7 @@ public class Blog {
 
     private static final long serialVersionUID = 1L;
 
-    private Integer id;
+    private String id;
 
     private Boolean appreciation;
 
@@ -50,12 +51,21 @@ public class Blog {
 
     private Integer views;
 
-    private Long typeId;
+    private String typeId;
 
-    private Long userId;
+    private String userId;
 
     private Integer commentCount;
 
+    private Boolean deleteFlag;
+
+    @TableField(exist = false)
+    private Type type;
+
+    @TableField(exist = false)
+    private User user;
+
+    @TableField(exist = false)
     private List<Comment> comments = new ArrayList<>();
 
 }

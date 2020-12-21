@@ -1,5 +1,6 @@
 package com.yyn1215.myblogs.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -20,10 +21,11 @@ public class Type {
 
     private static final long serialVersionUID = 1L;
 
-    private Integer id;
+    private String id;
 
     private String name;
 
+    @TableField(exist = false)
     private List<Blog> blogs = new ArrayList<>();
 
 }
