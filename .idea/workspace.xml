@@ -25,51 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="613dc6c9-f735-4f10-b1f5-a8474cc7696b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-12-09.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-12-10.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-12-16.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/blog-dev.log.2020-12-20.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/controller/admin/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/vo/BlogQueryVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/static/images/oneStar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/static/images/test.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/src/main/resources/static/images/yynWX.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/controller/TBlogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/controller/admin/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/controller/admin/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/controller/admin/TypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/controller/admin/TypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/entity/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/entity/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/entity/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/BlogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/TypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/TypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/java/com/yyn1215/myblogs/service/impl/TypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/blogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/friendlinks-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/friendlinks-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/friendlinks.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/friendlinks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/pictures-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/pictures-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/pictures.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/pictures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/types-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/admin/types.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/archives.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/archives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/error/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/error/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/error/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/friends.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/friends.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/picture.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/picture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/src/main/resources/templates/types.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/src/main/resources/templates/types.html" afterDir="false" />
-    </list>
+    <list default="true" id="613dc6c9-f735-4f10-b1f5-a8474cc7696b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +181,7 @@
       <workItem from="1607952337728" duration="5951000" />
       <workItem from="1608126587579" duration="9050000" />
       <workItem from="1608281220797" duration="1315000" />
-      <workItem from="1608471401061" duration="6640000" />
+      <workItem from="1608471401061" duration="7223000" />
     </task>
     <servers />
   </component>
@@ -292,38 +248,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608205246235" />
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom" timestamp="1608561325603">
+    <state width="1877" height="482" key="GridCell.Tab.0.bottom" timestamp="1608562170713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325603" />
-    <state width="1877" height="223" key="GridCell.Tab.0.center" timestamp="1608561325603">
+    <state width="1877" height="482" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170713" />
+    <state width="1877" height="482" key="GridCell.Tab.0.center" timestamp="1608562170712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325603" />
-    <state width="1877" height="223" key="GridCell.Tab.0.left" timestamp="1608561325603">
+    <state width="1877" height="482" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170712" />
+    <state width="1877" height="482" key="GridCell.Tab.0.left" timestamp="1608562170711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325603" />
-    <state width="1877" height="223" key="GridCell.Tab.0.right" timestamp="1608561325603">
+    <state width="1877" height="482" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170711" />
+    <state width="1877" height="482" key="GridCell.Tab.0.right" timestamp="1608562170712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325603" />
-    <state width="1877" height="223" key="GridCell.Tab.1.bottom" timestamp="1608561325604">
+    <state width="1877" height="482" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170712" />
+    <state width="1877" height="482" key="GridCell.Tab.1.bottom" timestamp="1608562170713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325604" />
-    <state width="1877" height="223" key="GridCell.Tab.1.center" timestamp="1608561325604">
+    <state width="1877" height="482" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170713" />
+    <state width="1877" height="482" key="GridCell.Tab.1.center" timestamp="1608562170713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325604" />
-    <state width="1877" height="223" key="GridCell.Tab.1.left" timestamp="1608561325604">
+    <state width="1877" height="482" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170713" />
+    <state width="1877" height="482" key="GridCell.Tab.1.left" timestamp="1608562170713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325604" />
-    <state width="1877" height="223" key="GridCell.Tab.1.right" timestamp="1608561325604">
+    <state width="1877" height="482" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170713" />
+    <state width="1877" height="482" key="GridCell.Tab.1.right" timestamp="1608562170713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="223" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608561325604" />
+    <state width="1877" height="482" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608562170713" />
     <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1608209541093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
